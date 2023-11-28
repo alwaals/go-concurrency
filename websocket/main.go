@@ -15,6 +15,7 @@ var upgrader = websocket.Upgrader{
 	CheckOrigin:     func(r *http.Request) bool { return true },
 }
 
+//Testing vi editor
 func reader(conn *websocket.Conn) {
 	for {
 		// read in a message
